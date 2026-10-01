@@ -1,0 +1,14 @@
+name: First work flow
+
+on: push
+
+jobs:
+  my-first-job:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Print a message
+          run : echo "Hello from my first Github Acton workflow"
+
+      
+        - name: Check linting
+          run : echo "linting checking"
