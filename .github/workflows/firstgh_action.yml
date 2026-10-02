@@ -12,3 +12,5 @@ jobs:
       
         - name: Check linting
           run : echo "linting checking"
+        - name : version
+          run : node -v
